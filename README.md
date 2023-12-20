@@ -16,6 +16,10 @@
    - reportsTo: string
    - profileImage: string
 
+## Local Setup
+```bash
+git clone https://github.com/nay-22/Spring-Boot-REST-API.git
+```
 
   
 ## API Endpoints and Usage Examples
