@@ -21,6 +21,14 @@
 git clone https://github.com/nay-22/Spring-Boot-REST-API.git
 ```
 
+## Amazon DynamoDB Setup
+- Create AWS account
+- Login to AWS Console and go to IAM
+- Create an IAM Group and attach AmazonDynamoDBFullAccess policy
+- Create a an IAM user in that group and download the Access Key and Secret Access Key for further use in the code
+- Go to Amazon DynamoDB
+- Create a table named 'Employee' with 'id - string' as the partition key
+
   
 ## API Endpoints and Usage Examples
 - ### Save Employee: http://localhost:8080/employee/save
@@ -307,10 +315,3 @@ git clone https://github.com/nay-22/Spring-Boot-REST-API.git
       }
       ```
 
-## Amazon DynamoDB Setup
-- Create AWS account
-- Login to AWS Console and go to IAM
-- Create an IAM Group and attach AmazonDynamoDBFullAccess policy
-- Create a an IAM user in that group and download the Access Key and Secret Access Key for further use in the code
-- Go to Amazon DynamoDB
-- Create a table named 'Employee' with 'id - string' as the partition key
